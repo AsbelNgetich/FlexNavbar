@@ -1,0 +1,39 @@
+.nav {
+  height: 70px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  color: azure;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-title {
+  width: 250px;
+  padding-left: 20px;
+  font-weight: 500;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-right: 15px;
+}
+
+ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+ul li a {
+  color: azure;
+}
+
+.btn {
+  background-color: rgb(67, 188, 224);
+  color: white;
+  border: 1px solid black;
+  box-shadow: 2px 5px black;
+}
